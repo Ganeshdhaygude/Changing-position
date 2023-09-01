@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+}
+div {
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+    background-color:transparent;
+    color: black;
+    height: 100px;
+    width: 1000px;
+    display:flex ;
+    flex-direction: column;
+    
+}
+button{
+    position: relative;
+    border: 2px red;
+    border-shadow: inset 2px 2px 3px rgb(216, 50, 141) inset 2px 2px 3px rgb(219, 113, 25);
+    
+}
+#buttonYes ,#buttonNo ,h1{
+    border: 2px solid rgba(255, 0, 0, 0.373);
+    box-shadow: 3px 3px 10px 10px black;
+    background-color: transparent;
+    color: rgba(255, 0, 0, 0.459);
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+h1{
+    color: red;
+    font-weight: 900;
+
+}
+
+h1:hover ,#buttonYes:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: red;
+    border: 2px solid red;
+  }
